@@ -27,7 +27,7 @@ import {
 
 // Component type must match the ID defined in the Java component
 // This ensures the frontend and backend components are properly linked
-// See dev.kgamble.perspective.examples.common.components.input.Checkbox#COMPONENT_ID
+// See dev.mgeroulo.perspective.examples.common.components.input.Checkbox#COMPONENT_ID
 export const COMPONENT_ID = "examples.input.checkbox";
 
 // Define the props interface for type safety

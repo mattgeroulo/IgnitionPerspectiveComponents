@@ -1,8 +1,8 @@
 /*
- * Copyright 2024 Keith Gamble
+ * Copyright 2024 Matt Geroulo
  * [License information]
  */
-package dev.kgamble.perspective.examples.common.utilities;
+package dev.mgeroulo.perspective.examples.common.utilities;
 
 import com.inductiveautomation.ignition.common.jsonschema.JsonSchema;
 import com.inductiveautomation.perspective.common.api.ComponentEventDescriptor;
@@ -10,7 +10,7 @@ import com.inductiveautomation.perspective.common.api.ComponentEventDescriptor;
 /**
  * Utility class providing helper methods for component-related operations.
  *
- * @author Keith Gamble
+ * @author Matt Geroulo
  */
 public class ComponentUtilities {
 

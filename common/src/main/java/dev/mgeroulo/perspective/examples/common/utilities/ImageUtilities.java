@@ -1,8 +1,8 @@
 /*
- * Copyright 2024 Keith Gamble
+ * Copyright 2024 Matt Geroulo
  * [License information]
  */
-package dev.kgamble.perspective.examples.common.utilities;
+package dev.mgeroulo.perspective.examples.common.utilities;
 
 import java.awt.image.BufferedImage;
 import java.awt.Graphics2D;
@@ -14,7 +14,7 @@ import java.io.IOException;
  * Utility class for image-related operations, particularly for loading and
  * resizing thumbnails.
  *
- * @author Keith Gamble
+ * @author Matt Geroulo
  */
 public class ImageUtilities {
 

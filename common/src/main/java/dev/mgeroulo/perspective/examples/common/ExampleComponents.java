@@ -1,4 +1,4 @@
-package dev.kgamble.perspective.examples.common;
+package dev.mgeroulo.perspective.examples.common;
 
 import java.util.Set;
 import com.inductiveautomation.perspective.common.api.BrowserResource;

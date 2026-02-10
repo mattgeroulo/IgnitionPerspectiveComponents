@@ -55,7 +55,7 @@ ignitionModule {
     // Module definition
     name.set("Example Component Library")
     fileName.set("Example-Component-Library.modl")
-    id.set("dev.kgamble.perspective.examples")
+    id.set("dev.mgeroulo.perspective.examples")
 
     // Project scope mapping
     projectScopes.putAll(

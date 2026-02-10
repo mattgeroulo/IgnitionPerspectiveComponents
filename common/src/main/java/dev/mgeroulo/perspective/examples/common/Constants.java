@@ -1,8 +1,8 @@
 /*
- * Copyright 2024 Keith Gamble
+ * Copyright 2024 Matt Geroulo
  * [License information]
  */
-package dev.kgamble.perspective.examples.common;
+package dev.mgeroulo.perspective.examples.common;
 
 /**
  * This class contains constant values used across the Example Component Library
@@ -10,7 +10,7 @@ package dev.kgamble.perspective.examples.common;
  * These constants ensure consistency in module identification and resource
  * access.
  *
- * @author Keith Gamble
+ * @author Matt Geroulo
  */
 public class Constants {
 	/**
@@ -18,7 +18,7 @@ public class Constants {
 	 * This ID is used in various parts of the module sdk to recognize and
 	 * manage the module.
 	 */
-	public static final String MODULE_ID = "dev.kgamble.perspective.examples.ExampleComponentLibrary";
+	public static final String MODULE_ID = "dev.mgeroulo.perspective.examples.ComponentLibrary";
 
 	/**
 	 * The URL alias for this module's resources.

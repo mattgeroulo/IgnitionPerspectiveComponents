@@ -15,5 +15,5 @@ jobs:
       - name: Upload Unsigned Module
         uses: actions/upload-artifact@v3
         with:
-          name: example-library-unsigned
-          path: build/Example-Component-Library.unsigned.modl
+          name: component-library-unsigned
+          path: build/Component-Library.unsigned.modl

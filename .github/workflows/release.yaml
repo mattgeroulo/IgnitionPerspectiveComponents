@@ -43,5 +43,5 @@ jobs:
           automatic_release_tag: ${{ github.event.inputs.tag || github.ref_name }}
           prerelease: false
           files: |
-            build/Example-Component-Library.modl
+            build/Component-Library.modl
             LICENSE.txt

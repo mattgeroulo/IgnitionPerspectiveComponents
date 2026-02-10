@@ -59,7 +59,7 @@ services:
       GATEWAY_RESTORE_DISABLED: "false"
     command: >
       --
-      -Dres.path.dev.kgamble.perspective.examples.ExampleComponentLibrary=/web-resources/build/generated-resources/mounted
+      -Dres.path.dev.mgeroulo.perspective.examples.ComponentLibrary=/web-resources/build/generated-resources/mounted
 ```
 
 ## Usage

@@ -18,7 +18,7 @@ Consistent naming is crucial for maintainable code and proper module functionali
 Example:
 
 ```java
-dev.kgamble.perspective.examples.ExampleComponentLibrary
+dev.mgeroulo.perspective.examples.ComponentLibrary
 ```
 
 :::info Why This Pattern?

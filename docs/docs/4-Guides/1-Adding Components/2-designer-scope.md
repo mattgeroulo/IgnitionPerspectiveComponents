@@ -31,9 +31,9 @@ This icon will be displayed in the component palette and represents your checkbo
 
 Modify the designer hook `init` and `shutdown` methods to register your new checkbox component:
 
-```java title="designer/src/main/java/dev/kgamble/perspective/examples/designer/ExampleComponentLibraryDesignerHook.java"
+```java title="designer/src/main/java/dev/mgeroulo/perspective/examples/designer/ExampleComponentLibraryDesignerHook.java"
 // Add the checkbox import after the other imports
-import dev.kgamble.perspective.examples.common.components.input.Checkbox;
+import dev.mgeroulo.perspective.examples.common.components.input.Checkbox;
 
 public class ExampleComponentLibraryDesignerHook extends AbstractDesignerModuleHook {
     // ... other DesignerHook methods ...

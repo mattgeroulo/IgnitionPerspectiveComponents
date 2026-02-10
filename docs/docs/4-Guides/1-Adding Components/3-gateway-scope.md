@@ -13,8 +13,8 @@ The gateway scope handles server-side component registration and resource manage
 
 Register your checkbox component in the gateway hook:
 
-```java title="gateway/src/main/java/dev/kgamble/perspective/examples/gateway/ExampleComponentLibraryGatewayHook.java"
-import dev.kgamble.perspective.examples.common.components.input.Checkbox;
+```java title="gateway/src/main/java/dev/mgeroulo/perspective/examples/gateway/ExampleComponentLibraryGatewayHook.java"
+import dev.mgeroulo.perspective.examples.common.components.input.Checkbox;
 
 public class ExampleComponentLibraryGatewayHook extends AbstractGatewayModuleHook {
     // ... other DesignerHook methods ...

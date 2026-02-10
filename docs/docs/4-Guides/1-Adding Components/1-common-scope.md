@@ -8,7 +8,7 @@ description: Create the common scope for a Perspective component
 <!-- Explain that file contents underneath the `examples/common` directory can be changed and modified, and that we just picked a structure that works well for us. -->
 
 :::tip 📝
-The common scope establishes the core structure of our Checkbox component, defining its properties, events, and component descriptor. Because we are building the package `dev.kgamble.perspective.examples`, we'll place our files in the `common` directory under `src/main/java` and `src/main/resources`.
+The common scope establishes the core structure of our Checkbox component, defining its properties, events, and component descriptor. Because we are building the package `dev.mgeroulo.perspective.examples`, we'll place our files in the `common` directory under `src/main/java` and `src/main/resources`.
 
 Anything below the `common` directory can be changed and modified to suit your needs. We've chosen a structure that works well for us, but you can adjust it as needed.
 :::
@@ -17,15 +17,15 @@ Anything below the `common` directory can be changed and modified to suit your n
 
 First, create your component class `Checkbox.java`
 
-```java title="common/src/main/java/dev/kgamble/perspective/examples/common/components/input/Checkbox.java"
-package dev.kgamble.perspective.examples.common.components.input;
+```java title="common/src/main/java/dev/mgeroulo/perspective/examples/common/components/input/Checkbox.java"
+package dev.mgeroulo.perspective.examples.common.components.input;
 
 import java.util.List;
 import com.inductiveautomation.perspective.common.api.ComponentDescriptor;
 import com.inductiveautomation.perspective.common.api.ComponentDescriptorImpl;
-import dev.kgamble.perspective.examples.common.Constants;
-import dev.kgamble.perspective.examples.common.ExampleComponents;
-import dev.kgamble.perspective.examples.common.utilities.ComponentUtilities;
+import dev.mgeroulo.perspective.examples.common.Constants;
+import dev.mgeroulo.perspective.examples.common.ExampleComponents;
+import dev.mgeroulo.perspective.examples.common.utilities.ComponentUtilities;
 
 public class Checkbox {
     // Unique identifier for the component
@@ -139,7 +139,7 @@ This defines our checkbox's change event structure, specifying:
 
 Update the `Checkbox.java` class to include the event descriptor:
 
-```java title="common/src/main/java/dev/kgamble/perspective/examples/common/components/input/Checkbox.java"
+```java title="common/src/main/java/dev/mgeroulo/perspective/examples/common/components/input/Checkbox.java"
     // Add this near the top of the Checkbox class
     static ComponentEventDescriptor OnChangeDescriptor = ComponentUtilities
         .getEventDescriptor(

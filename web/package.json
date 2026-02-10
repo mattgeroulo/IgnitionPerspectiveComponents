@@ -1,5 +1,5 @@
 {
-	"name": "@kgamble/example-components",
+	"name": "@mgeroulo/component-library",
 	"version": "0.0.1",
 	"description": "A collection of example React components",
 	"main": "dist/index.js",
